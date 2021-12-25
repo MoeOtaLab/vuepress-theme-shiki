@@ -22,6 +22,7 @@
 - [ ] I18n
 - [ ] Static Assert Management
 - [ ] Support Dynamic Routes
+- [ ] CSS Variables
 
 ## Pages
 - [ ] Content Pages
