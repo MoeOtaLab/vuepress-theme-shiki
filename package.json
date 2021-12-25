@@ -4,8 +4,8 @@
   "description": "four seasons of reincarnation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "reset": "rm -rf packages/*/node_modules && rm -rf node_modules"
   },
   "repository": {
     "type": "git",
@@ -39,18 +39,15 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint"
-    }
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
     ]
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "eslint --cache --fix"
+    "*.{js,ts,vue}": [
+      "eslint --cache --fix",
+      "git add"
+    ]
   }
 }
