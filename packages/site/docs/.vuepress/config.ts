@@ -7,6 +7,8 @@ export default defineUserConfig<DefaultThemeOptions>({
   title: 'Hello VuePress',
   description: 'Just playing around',
 
+  base: '/vuepress-theme-shiki/',
+
   // theme and its config
   // theme: '@vuepress/theme-default',
   theme: '@moeota/vuepress-theme-shiki',
