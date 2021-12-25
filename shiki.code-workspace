@@ -35,5 +35,6 @@
     "[vue]": {
       "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
+    "GitCommitPlugin.ShowEmoji": false
   }
 }
