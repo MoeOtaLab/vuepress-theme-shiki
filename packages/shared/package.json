@@ -1,0 +1,23 @@
+{
+  "name": "@moeota/shiki-shared",
+  "version": "1.0.0",
+  "description": "four seasons of reincarnation",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoeOtaLab/vuepress-theme-shiki.git"
+  },
+  "keywords": [
+    "vuepress-theme",
+    "seasons"
+  ],
+  "author": "everbrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoeOtaLab/vuepress-theme-shiki/issues"
+  },
+  "homepage": "https://github.com/MoeOtaLab/vuepress-theme-shiki#readme"
+}

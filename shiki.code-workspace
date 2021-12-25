@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "Shiki",
+      "path": "packages/shiki"
+    },
+    {
+      "name": "Site",
+      "path": "packages/site"
+    },
+    {
+      "name": "Components",
+      "path": "packages/components"
+    },
+    {
+      "name": "Shared",
+      "path": "packages/shared"
+    },
+    {
+      "name": "Root",
+      "path": "."
+    },
+  ]
+}
