@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/MoeOtaLab/vuepress-theme-shiki/issues"
   },
-  "homepage": "https://github.com/MoeOtaLab/vuepress-theme-shiki#readme"
+  "homepage": "https://github.com/MoeOtaLab/vuepress-theme-shiki#readme",
+  "devDependencies": {
+    "vue": "^3.2.26"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.26"
+  }
 }

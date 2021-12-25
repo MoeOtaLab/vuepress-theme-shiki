@@ -45,7 +45,10 @@ importers:
     specifiers: {}
 
   packages/shiki:
-    specifiers: {}
+    specifiers:
+      vue: ^3.2.26
+    devDependencies:
+      vue: 3.2.26
 
   packages/site:
     specifiers:
