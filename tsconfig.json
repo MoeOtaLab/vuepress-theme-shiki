@@ -38,6 +38,8 @@
   "include": [
     "packages/global.d.ts",
     "packages/*/src",
+    "packages/*/lib",
+    "packages/*/stories",
     "packages/*/__tests__",
   ]
 }

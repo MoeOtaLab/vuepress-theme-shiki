@@ -9,6 +9,11 @@
     "prepare": "husky install",
     "reset": "rm -rf packages/*/node_modules && rm -rf node_modules"
   },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoeOtaLab/vuepress-theme-shiki.git"
