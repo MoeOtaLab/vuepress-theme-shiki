@@ -25,7 +25,7 @@
     "rootDir": ".",
     "paths": {
       "@moeota/shiki-components": [
-        "packages/components/src"
+        "packages/shiki-components/lib"
       ],
       "@moeota/shiki-shared": [
         "packages/shared/src"

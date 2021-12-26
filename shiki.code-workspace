@@ -9,8 +9,8 @@
       "path": "packages/site"
     },
     {
-      "name": "Components",
-      "path": "packages/components"
+      "name": "Shiki Components",
+      "path": "packages/shiki-components"
     },
     {
       "name": "Shared",
