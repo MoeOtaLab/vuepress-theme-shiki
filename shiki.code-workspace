@@ -10,7 +10,7 @@
     },
     {
       "name": "Components",
-      "path": "packages/components"
+      "path": "packages/shiki-components"
     },
     {
       "name": "Shared",
