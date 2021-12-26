@@ -4,9 +4,10 @@
   "description": "four seasons of reincarnation",
   "main": "index.js",
   "scripts": {
+    "setup": "pnpm install",
     "dev:docs": "pnpm dev --filter @moeota/site-shiki",
     "build:docs": "pnpm build --filter @moeota/site-shiki",
-    "prepare": "husky install",
+    "prepare": "pnpm husky install",
     "reset": "rm -rf packages/*/node_modules && rm -rf node_modules"
   },
   "workspaces": {

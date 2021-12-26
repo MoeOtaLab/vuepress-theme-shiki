@@ -9,7 +9,7 @@
       "path": "packages/site"
     },
     {
-      "name": "Components",
+      "name": "Shiki Components",
       "path": "packages/shiki-components"
     },
     {
