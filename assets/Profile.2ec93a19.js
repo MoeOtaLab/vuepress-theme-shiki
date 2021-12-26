@@ -1,0 +1,1 @@
+import{r as o,o as t,c as n,f as r,b as c}from"./app.7fd7d6d8.js";import{_ as s}from"./plugin-vue_export-helper.21dcd24c.js";const a={},_=c(" Custom Page.233 ");function d(p,f){const e=o("Content");return t(),n("div",null,[_,r(e)])}var i=s(a,[["render",d]]);export{i as default};
